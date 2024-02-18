@@ -1,0 +1,208 @@
+body {
+  font-family: "Arial", sans-serif;
+}
+
+h2 {
+  color: #333;
+  display: block;
+}
+
+.shippingForm {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.paymentForm {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.shippingForm label {
+  margin: auto;
+  width: 90%;
+}
+.paymentForm label {
+  margin-top: 5px;
+  width: 45%;
+}
+
+.shippingForm input,
+.paymentForm input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  box-sizing: border-box;
+}
+.emptyCart {
+  margin-top: 80px;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+h2:last-of-type {
+  margin-top: 20px;
+}
+select {
+  font-size: 18px;
+  display: inline-block;
+  margin-right: 10px;
+  width: 45%;
+}
+.expirationDate {
+  margin: auto;
+}
+.expirationHeader {
+  font-size: 18px;
+}
+
+.select {
+  margin: 0 auto;
+  padding: 1px;
+  margin-top: 5px;
+}
+.expirationContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Align items with space between them */
+}
+
+.shippingForm {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.paymentForm {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.formContainer {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+.error {
+  font-size: 15px;
+  color: red;
+  margin-top: 10px !important;
+}
+.paymentForm h2 {
+  margin-top: 0px !important;
+}
+.submit {
+  margin: auto;
+  width: 40%;
+  margin-top: 15px;
+}
+.confirmationPage {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #dfd6d6;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.confirmationPage h2 {
+  color: #242323;
+}
+
+.confirmationPage p {
+  color: #242323;
+  margin-bottom: 15px;
+}
+
+.confirmationPage h3 {
+  color: #242323;
+  margin-top: 15px;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.confirmationPage ul {
+  list-style: none;
+  padding: 0;
+}
+
+.confirmationPage li {
+  margin-bottom: 15px;
+}
+.confirmationPage li .itemName {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.confirmationPage span {
+  display: block;
+  margin-bottom: 5px;
+}
+h4 {
+  font-size: 20px;
+}
+.orderHeaders {
+  font-size: 25px !important;
+}
+@media screen and (max-width: 768px) {
+  .shippingForm,
+  .paymentForm {
+    grid-template-columns: 1fr;
+  }
+
+  .shippingForm {
+    grid-template-columns: 1fr;
+  }
+
+  .expirationContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 8px;
+    margin-bottom: 20px;
+  }
+  .expirationInput {
+    flex: 1;
+    margin-bottom: 20px;
+  }
+
+  .expirationInput label {
+    margin-bottom: 5px;
+  }
+
+  .formContainer {
+    width: 90%;
+  }
+
+  .paymentForm label {
+    width: 90%;
+  }
+
+  button {
+    width: 100%;
+  }
+  h2 {
+    margin-bottom: 10px !important;
+    margin-top: 30px !important;
+  }
+  .paymentForm {
+    width: 100% !important;
+    margin-left: 5%;
+  }
+  .paymentHeader {
+    margin-top: 0px !important;
+  }
+  .select {
+    width: 100%;
+  }
+}

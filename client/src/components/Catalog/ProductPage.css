@@ -1,0 +1,21 @@
+.nameProduct {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.nameProductImg {
+  margin-top: 15px;
+  border-radius: 5px;
+}
+.optionGroup {
+  display: block;
+  flex-direction: column;
+  gap: 10px; /* Adjust the gap as needed */
+}
+.styleOption {
+  font-size: 20px;
+  width: 25%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

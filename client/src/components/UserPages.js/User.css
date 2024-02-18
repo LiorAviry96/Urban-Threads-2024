@@ -1,0 +1,21 @@
+label {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+h3 {
+  font-size: 1.5em;
+  color: rgb(117, 70, 117);
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}

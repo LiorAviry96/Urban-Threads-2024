@@ -1,0 +1,15 @@
+.searchField {
+  font-size: 20px;
+  padding: 8px;
+}
+.filterHeader {
+  font-size: 20px !important;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+.filterDropdown {
+  display: block;
+  margin: auto;
+  margin-bottom: 10px !important;
+  width: 150px;
+}

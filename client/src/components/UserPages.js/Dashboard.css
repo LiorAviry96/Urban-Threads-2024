@@ -1,0 +1,59 @@
+.dashboardContainer {
+  max-width: 55%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #dfd6d6;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pageTitleUser {
+  font-size: 3em !important;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.hello {
+  color: black;
+  margin-bottom: 25px;
+}
+.orderList {
+  list-style: none;
+  padding: 0;
+  font-size: 1px;
+}
+.orderList p {
+  font-size: 16px;
+}
+.orderList h3 {
+  font-size: 20px;
+}
+.orderItem {
+  border: 1px solid #000;
+  border-radius: 8px;
+  padding: 15px;
+  background-color: #fafafa;
+  margin-bottom: 15px;
+  font-size: 12px !important;
+  margin-top: 10px;
+  color: rgb(117, 70, 117);
+}
+
+.manage {
+  margin-top: 65px;
+  font-size: 40px !important;
+  color: black;
+}
+.paragraph {
+  margin-top: 25px;
+  font-size: 22px !important;
+  color: black;
+  margin-bottom: 35px !important;
+}
+
+@media screen and (max-width: 767px) {
+  .orderNumber {
+    font-size: 14px !important;
+  }
+}

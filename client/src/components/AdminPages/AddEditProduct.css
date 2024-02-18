@@ -1,0 +1,97 @@
+h2 {
+  font-family: "Wix Madefor Text", sans-serif;
+  font-weight: bold;
+}
+.product-form-container {
+  max-width: 50%;
+  margin: auto;
+
+  .details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .versions-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+}
+.product-form label {
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.product-form input {
+  padding: 8px;
+  margin-top: 4px;
+  width: 100%;
+}
+
+.product-form button {
+  grid-column: span 2;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.error {
+  font-size: 15px;
+  color: red;
+  margin-top: 0px;
+}
+.description {
+  margin-top: 0px;
+  margin-bottom: 5px !important;
+}
+
+.product-actions {
+  display: flex;
+  gap: 10px;
+}
+label {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  margin-top: 10px !important;
+}
+textarea {
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  margin-top: 10px !important;
+}
+
+h3 {
+  font-size: 1.5em;
+  color: rgb(117, 70, 117);
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+@media screen and (max-width: 768px) {
+  .product-form-container {
+    max-width: 100%;
+  }
+
+  .product-form label {
+    width: 100%;
+  }
+
+  .product-form textarea {
+    width: 100%;
+  }
+
+  .product-form button {
+    grid-column: span 1;
+  }
+}
